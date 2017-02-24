@@ -2,13 +2,11 @@ package horner.ben.generals
 
 import java.net.URLEncoder
 
+import horner.ben.generals.Converters._
 import io.socket.client.{IO, Socket}
 import org.json.JSONObject
 
-import scala.io.StdIn
 import scala.util.Random
-
-import horner.ben.generals.Converters._
 
 
 object Tutorial {
